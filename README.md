@@ -17,11 +17,11 @@
 在该游戏中，玩家通过键盘的上下左右键来对贪吃蛇的头部进行控制，来完成自身的移动。此外，当玩家控制贪吃蛇移动时，只被允许往前、往左和往右移动，不被允许往后移动，即后退，而贪吃蛇的食物则是通过是使用random库生成随机数，随机的出现在游戏界面内，从而完成了食物在地图上随机出现的效果。贪吃蛇吃到食物之后，其长度会自动加一，并且其长度增加到一定值后，即蛇成年后，蛇移动的速度开始变化，这时其移动速度跟其长度线性相关，而速度的改变基于游戏延迟快慢来实现的。总的来说长度越长，蛇的速度会越快。当他咬到自己身体的时候，或者撞墙之后就会死亡，然后，弹出“Game Over！”提示游戏结束，蛇将不能移动。
 #### 2.数据结构设计
 ##### 2.1.对界面的设计
-<img  width="50%" height="50%" alt="94605fb402b1c7eb8e283ccd0b108593" src="https://github.com/user-attachments/assets/db94a4e1-7dd9-432a-a200-54b0adb53f99" />
-<img  width="50%" height="50%" alt="fcd45a907ba1c5086eb07f9af93d3b1a" src="https://github.com/user-attachments/assets/3a088aef-9d3e-46ba-a066-3d8746ff4597" />
+<img alt="94605fb402b1c7eb8e283ccd0b108593" src="https://github.com/user-attachments/assets/db94a4e1-7dd9-432a-a200-54b0adb53f99" />
+<img alt="fcd45a907ba1c5086eb07f9af93d3b1a" src="https://github.com/user-attachments/assets/3a088aef-9d3e-46ba-a066-3d8746ff4597" />
 
 ##### 2.2.点亮小方格
-<img  width="50%" height="50%" alt="88aa4e843d234c6bd2be7e17b6dd907a" src="https://github.com/user-attachments/assets/ac694049-6e62-4622-89ca-ecce67e10922" />
+<img alt="88aa4e843d234c6bd2be7e17b6dd907a" src="https://github.com/user-attachments/assets/ac694049-6e62-4622-89ca-ecce67e10922" />
 
 #### 3.面向对象设计
 ##### 3.1.定义对象——贪吃蛇
