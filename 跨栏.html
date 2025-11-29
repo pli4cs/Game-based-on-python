@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>方块跳跳</title>
+
+    <script>
+        var time = 0;
+        var draw = 0;
+
+        //白云坐标
+        var cloud_x = [100, 300, 600, 700];
+        var cloud_y = [60, 50, 100, 80];
+
+        //障碍坐标，高度和宽度
+        var obstacle_x = [300, 400, 600, 800];
+        var obstacle_h = [20, 10, 10, 20]
+        var obstacle_w = [20, 10, 20, 10];
+
+        //玩家y坐标，跳跃标记和跳跃时间
+        var y = 400 - 20 - 20;
+        var fly = 0;
+        var fly_t = 0;
+
+        function update() {
+
+            //获取画笔
+            var element = document.getElementById("canvas");
+            var pen = element.getContext("2d");
+            pen.font = "18px songti";
+            pen.fillStyle = "#ffffff";
+            pen.clearRect(0, 25, 800, 400);
+
+            //绘制画云
+            for (var i = 0; i <= cloud_x.length - 1; i++) {
+                pen.fillText("云云云云", cloud_x[i] - 1, cloud_y[i]);
+                cloud_x[i] = cloud_x[i] - 2 - parseInt(time * 0.001);
+                if (cloud_x[i] <= 0) {
+                    cloud_x[i] = 800;
+                    cloud_y[i] = parseInt(Math.random() * 100 + 50);
+                }
+            }
+
+            //画障碍物
+            for (var i = 0; i <= obstacle_x.length - 1; i = i + 1) {
+
+                if (obstacle_x[i] == 0) {
+
+                    //随机出现障碍物
+                    if (Math.random() < 0.01) {
+                        obstacle_w[i] = parseInt(Math.random() * 15);
+                        obstacle_h[i] = parseInt(Math.random() * 30) + 5;
+                        obstacle_x[i] = 800;
+                    }
+                }
+
+                if (obstacle_x[i] != 0) {
+                    pen.fillRect(obstacle_x[i], 400 - 20 - obstacle_h[i], obstacle_w[i], obstacle_h[i]);
+                    obstacle_x[i] = obstacle_x[i] - 2 - parseInt(time * 0.001);
+                    if (obstacle_x[i] <= 0) {
+                        obstacle_x[i] = 0;
+                    }
+                }
+            }
+
+            //画玩家
+            pen.fillStyle = "red";
+            pen.fillRect(200, y, 20, 20);
+            pen.fillStyle = "white";
+
+            //玩家跳跃
+            if (fly == 1) {
+                fly_t = fly_t + 0.1;
+                y = y - Math.sin(fly_t) * 5;
+                if (parseInt(y) == 360) {
+                    fly = 0;
+                    fly_t = 0;
+                }
+            }
+
+            //画大地
+            pen.fillRect(1, 379, 798, 20);
+
+            //判断矩形相交游戏结束
+            for (var i = 0; i <= obstacle_x.length - 1; i = i + 1) {
+                if (200 + 20 >= obstacle_x[i] && 200 + 20 <= obstacle_x[i] + obstacle_w[i] &&
+                    y + 20 >= 400 - 20 - obstacle_h[i] && y + 20 <= 400 - 19) {
+                    return;
+                }
+            }
+
+            draw++;
+            time++;
+            requestAnimationFrame(update);
+
+        }
+
+        window.onload = function main() {
+
+            //绘制游戏fps和时间轴
+            setInterval(function () {
+                var element = document.getElementById("canvas");
+                var pen = element.getContext("2d");
+                pen.font = "12px i";
+                pen.fillStyle = "#fff";
+                pen.clearRect(0, 0, 100, 23);
+                pen.fillText("FPS：" + draw * 10, 0, 10);
+                pen.fillText("ALL：" + time, 0, 23);
+
+                draw = 0;
+            }, 100);
+
+            //开始游戏
+            requestAnimationFrame(update);
+
+        }
+
+        //键盘按下
+        document.onkeydown = function keyDown(event) {
+            if (fly == 0) {
+                fly = 1;
+            }
+        }
+
+    </script>
+</head>
+<body style="background-color: #5ef0ff">
+
+<canvas id="canvas" width="800px" height="400px" style="background-color: black"></canvas>
+</body>
+</html>
