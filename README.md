@@ -26,13 +26,13 @@
 #### 3.面向对象设计
 ##### 3.1.定义对象——贪吃蛇
 给对象定义初始坐标与初始长度和方向
-<img  width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/edef9177-8cea-42c2-9528-a4463aca2e10" />
-<img  width="50%" height="50%" alt="0c76f3b170ccc4188a2b96013097de28" src="https://github.com/user-attachments/assets/09850547-7ef4-41c7-bb70-c89b86646fdc" />
+<img  alt="image" src="https://github.com/user-attachments/assets/edef9177-8cea-42c2-9528-a4463aca2e10" />
+<img   alt="0c76f3b170ccc4188a2b96013097de28" src="https://github.com/user-attachments/assets/09850547-7ef4-41c7-bb70-c89b86646fdc" />
 
 ##### 3.2.定义对象---食物
 定义食物的大小
-<img  width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/9b051dca-b3be-4edc-a6a0-c5b81fad2b18" />
-<img  width="50%" height="50%" alt="9806360b2cc628c26ec9f0a4da13c204" src="https://github.com/user-attachments/assets/54e51c71-7415-438f-be3f-ff87fff1d9e5" />
+<img   alt="image" src="https://github.com/user-attachments/assets/9b051dca-b3be-4edc-a6a0-c5b81fad2b18" />
+<img   alt="9806360b2cc628c26ec9f0a4da13c204" src="https://github.com/user-attachments/assets/54e51c71-7415-438f-be3f-ff87fff1d9e5" />
 
 #### 4.核心算法分析
 ##### 4.1.移动算法--蛇的移动：身体随着头动
@@ -42,12 +42,12 @@
 
 原来身子除身子的第一个小方格外的后部分(即蛇身和蛇尾),接替原来是身子的部分 i=4,3,2最前的小方格。原来身子的第一个小方格(即蛇脖子),接替原来的头。
 
-<img  width="50%" height="50%" alt="717f0080d0ad3e05b4de139ab09817fd" src="https://github.com/user-attachments/assets/ea274a78-7d8d-4cc4-ae8b-c159102b8dd2" />
+<img  alt="717f0080d0ad3e05b4de139ab09817fd" src="https://github.com/user-attachments/assets/ea274a78-7d8d-4cc4-ae8b-c159102b8dd2" />
 
 红色为蛇头，蓝色为蛇身和蛇尾，黑色为移动留下印记（示意图）
 
 ##### 4.2.吃食物
-<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/31a4b52b-d56a-4dfb-8b5c-28405b573959" />
+<imgalt="image" src="https://github.com/user-attachments/assets/31a4b52b-d56a-4dfb-8b5c-28405b573959" />
 
 
 #### 5.功能测试
