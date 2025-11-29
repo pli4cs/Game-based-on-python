@@ -31,8 +31,8 @@
 
 ##### 3.2.定义对象---食物
 定义食物的大小
-<img  width="50%" alt="image" src="https://github.com/user-attachments/assets/9b051dca-b3be-4edc-a6a0-c5b81fad2b18" />
-<img  width="50%" height="230" alt="9806360b2cc628c26ec9f0a4da13c204" src="https://github.com/user-attachments/assets/54e51c71-7415-438f-be3f-ff87fff1d9e5" />
+<img  width="80%" alt="image" src="https://github.com/user-attachments/assets/9b051dca-b3be-4edc-a6a0-c5b81fad2b18" />
+<img  width="80%" alt="9806360b2cc628c26ec9f0a4da13c204" src="https://github.com/user-attachments/assets/54e51c71-7415-438f-be3f-ff87fff1d9e5" />
 
 #### 4.核心算法分析
 ##### 4.1.移动算法--蛇的移动：身体随着头动
