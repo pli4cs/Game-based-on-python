@@ -48,8 +48,8 @@
 
 #### 1.4.功能测试
 ##### 1.4.1.吃食物与控制
-<img width="632" height="665" alt="b53c0b6bfbd64d3cd3b33154e2c13423" src="https://github.com/user-attachments/assets/e10c35c5-8ff4-4e19-bc14-721d9f4fff9a" />
-<img width="627" height="668" alt="image" src="https://github.com/user-attachments/assets/49bd7fe5-ef0a-49e6-ba23-2835ccc45363" />
+<img width="632/2" height="665/2" alt="b53c0b6bfbd64d3cd3b33154e2c13423" src="https://github.com/user-attachments/assets/e10c35c5-8ff4-4e19-bc14-721d9f4fff9a" />
+<img width="627/2" height="668/2" alt="image" src="https://github.com/user-attachments/assets/49bd7fe5-ef0a-49e6-ba23-2835ccc45363" />
 
 ##### 1.4.2.被咬死
 <img width="629" height="667" alt="image" src="https://github.com/user-attachments/assets/a431a904-65a9-46c2-a48d-1ffea7632ee4" />
