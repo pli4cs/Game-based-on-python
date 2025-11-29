@@ -1,5 +1,5 @@
 # Game-based-on-python
-基于Python的pygame库设计实现的游戏，包含以下游戏:
+基于Python的pygame库设计实现的游戏，包含以下游戏：
 
 1.人机五子棋
 
@@ -7,7 +7,7 @@
 
 3.飞机大战
 
-4.贪吃蛇
+4.贪吃蛇（RetroSnaker）
 
 5.跨栏（HTML游戏）
 
@@ -36,11 +36,14 @@
 
 #### 1.3核心算法分析
 ##### 1.3.1.移动算法--蛇的移动：身体随着头动
-
 <img width="148" height="306" alt="c59baaecb5c5fc7e613b6dd561bc3fa4" src="https://github.com/user-attachments/assets/4181a9cf-75c9-48c4-9b26-d3c18e05c8cc" />
+
 贪吃蛇结构示意图
 
+原来身子除身子的第一个小方格外的后部分(即蛇身和蛇尾),接替原来是身子的部分 i=4,3,2最前的小方格。原来身子的第一个小方格(即蛇脖子),接替原来的头。
+
 <img width="342" height="237" alt="717f0080d0ad3e05b4de139ab09817fd" src="https://github.com/user-attachments/assets/ea274a78-7d8d-4cc4-ae8b-c159102b8dd2" />
+
 红色为蛇头，蓝色为蛇身和蛇尾，黑色为移动留下印记（示意图）
 
 #### 1.4.功能测试
@@ -57,6 +60,9 @@
 ##### 1.4.4.吃到食物变长
 <img width="633" height="670" alt="6df656513e70a29472da35e4ccb43876" src="https://github.com/user-attachments/assets/4a1a9cfb-f969-42bb-b546-7852f26cdbea" />
 <img width="626" height="664" alt="63408076940186cfe5696fc90749215d" src="https://github.com/user-attachments/assets/8690ff8b-75b7-49ea-ba24-9b37a44ee174" />
+
+#### 1.5.打包发布
+通过使用Python代码的打包发布库和命令，将贪吃蛇游戏代码文件RetroSnaker.py里的代码打包发布成exe可执行文件RetroSnaker(贪吃蛇).exe。
 
 ### 跨栏（HTML游戏）
 跨栏游戏，又名方块跳跳，浏览器打开，通过按放键盘的空格键进行游戏操作。
