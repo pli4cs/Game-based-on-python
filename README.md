@@ -47,23 +47,23 @@
 红色为蛇头，蓝色为蛇身和蛇尾，黑色为移动留下印记（示意图）
 
 ##### 4.2.吃食物
-<img alt="image" src="https://github.com/user-attachments/assets/31a4b52b-d56a-4dfb-8b5c-28405b573959" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/31a4b52b-d56a-4dfb-8b5c-28405b573959" />
 
 
 #### 5.功能测试
 ##### 5.1.吃食物与控制
-<img  width="10%" height="10%" alt="b53c0b6bfbd64d3cd3b33154e2c13423" src="https://github.com/user-attachments/assets/e10c35c5-8ff4-4e19-bc14-721d9f4fff9a" />
-<img  width="10%" height="10%" alt="image" src="https://github.com/user-attachments/assets/49bd7fe5-ef0a-49e6-ba23-2835ccc45363" />
+<img  width="40%" height="40%" alt="b53c0b6bfbd64d3cd3b33154e2c13423" src="https://github.com/user-attachments/assets/e10c35c5-8ff4-4e19-bc14-721d9f4fff9a" />
+<img  width="40%" height="40%" alt="image" src="https://github.com/user-attachments/assets/49bd7fe5-ef0a-49e6-ba23-2835ccc45363" />
 
 ##### 5.2.被咬死
-<img width="10%" height="10%" alt="image" src="https://github.com/user-attachments/assets/a431a904-65a9-46c2-a48d-1ffea7632ee4" />
+<img width="40%" height="40%" alt="image" src="https://github.com/user-attachments/assets/a431a904-65a9-46c2-a48d-1ffea7632ee4" />
 
 ##### 5.3.被撞死了
-<img  width="20%" height="20%" alt="image" src="https://github.com/user-attachments/assets/dd864da6-7053-4b3f-96ad-437f68a258b4" />
+<img  width="40%" height="40%" alt="image" src="https://github.com/user-attachments/assets/dd864da6-7053-4b3f-96ad-437f68a258b4" />
 
 ##### 5.4.吃到食物变长
-<img  width="50%" height="50%" alt="6df656513e70a29472da35e4ccb43876" src="https://github.com/user-attachments/assets/4a1a9cfb-f969-42bb-b546-7852f26cdbea" />
-<img  width="50%" height="50%" alt="63408076940186cfe5696fc90749215d" src="https://github.com/user-attachments/assets/8690ff8b-75b7-49ea-ba24-9b37a44ee174" />
+<img width="40%" height="40%" alt="6df656513e70a29472da35e4ccb43876" src="https://github.com/user-attachments/assets/4a1a9cfb-f969-42bb-b546-7852f26cdbea" />
+<img width="40%" height="40%" alt="63408076940186cfe5696fc90749215d" src="https://github.com/user-attachments/assets/8690ff8b-75b7-49ea-ba24-9b37a44ee174" />
 
 #### 6.打包发布
 通过使用Python代码的打包发布库和命令，将贪吃蛇游戏代码文件RetroSnaker.py里的代码打包发布成exe可执行文件RetroSnaker(贪吃蛇).exe。
