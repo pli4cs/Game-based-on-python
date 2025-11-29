@@ -36,7 +36,7 @@
 
 #### 4.核心算法分析
 ##### 4.1.移动算法--蛇的移动：身体随着头动
-<img width="50%" height="50%" alt="c59baaecb5c5fc7e613b6dd561bc3fa4" src="https://github.com/user-attachments/assets/4181a9cf-75c9-48c4-9b26-d3c18e05c8cc" />
+<img alt="c59baaecb5c5fc7e613b6dd561bc3fa4" src="https://github.com/user-attachments/assets/4181a9cf-75c9-48c4-9b26-d3c18e05c8cc" />
 
 贪吃蛇结构示意图
 
