@@ -46,6 +46,10 @@
 
 红色为蛇头，蓝色为蛇身和蛇尾，黑色为移动留下印记（示意图）
 
+##### 4.2.吃食物
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/31a4b52b-d56a-4dfb-8b5c-28405b573959" />
+
+
 #### 5.功能测试
 ##### 5.1.吃食物与控制
 <img  width="50%" height="50%" alt="b53c0b6bfbd64d3cd3b33154e2c13423" src="https://github.com/user-attachments/assets/e10c35c5-8ff4-4e19-bc14-721d9f4fff9a" />
